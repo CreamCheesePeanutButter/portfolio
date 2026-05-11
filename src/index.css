@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  /* Colors */
+  --primary-color: #3498db;
+  --bg-color: #f4f4f4;
+  --text-color: #333;
+
+  /* Typography */
+  --font-main: "Inter", system-ui, sans-serif;
+  --base-font-size: 16px;
+
+  /* Spacing & Borders */
+  /* --spacing-unit: 1rem;
+  --border-radius: 8px; */
+}

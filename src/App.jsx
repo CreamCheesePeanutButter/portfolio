@@ -1,7 +1,9 @@
+import PortfolioPage from "./pages/PortfolioPage";
+
 function App() {
   return (
     <>
-      <div className="bg-black text-white"></div>
+      <PortfolioPage />
     </>
   );
 }

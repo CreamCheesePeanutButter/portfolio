@@ -18,3 +18,17 @@
 
   --radius-main: var(--radius-main);
 }
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+body {
+  -ms-overflow-style: none;
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}

@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import Terminal from "../../component/Terminal";
+// import Avatar from "../../component/avatar";
 
 export function AboutSlide() {
   return (
@@ -36,6 +37,9 @@ export function AboutSlide() {
           <Terminal />
         </motion.div>
       </section>
+      {/* <section className="w-full h-screen snap-start flex justify-center items-center shrink-0">
+        <Avatar />
+      </section> */}
     </>
   );
 }
